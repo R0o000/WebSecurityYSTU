@@ -1,0 +1,12 @@
+{
+    "name": "my-web",
+    "source": "src/index.html",
+    "scripts": {
+      "start": "parcel serve ./index.html",
+      "build": "parcel build ./index.html"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.9.1",
+        "parcel": "next"
+    }
+  }
